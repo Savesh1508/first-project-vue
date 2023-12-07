@@ -46,7 +46,7 @@ const router = createRouter({
       component: BookDetails,
       meta: {
         requiresAuth: true,
-        title: ""
+        title: "Details"
       },
       props: true
     },

@@ -1,7 +1,6 @@
 import { ref } from "vue";
 import { useStore } from "vuex";
 import { errorToast } from "../utils/toast"
-import { useRouter } from "vue-router";
 
 export function useLogin() {
   const store = useStore();

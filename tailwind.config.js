@@ -9,7 +9,8 @@ export default {
       colors: {
         main: '#B4B4BB',
         placeholders: "#AAAAAA",
-        basic: "#FFFFFF99"
+        basic: "#FFFFFF99",
+        secondary: "#C9AC8C"
       },
     },
 
