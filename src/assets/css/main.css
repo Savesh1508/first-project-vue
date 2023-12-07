@@ -1,0 +1,27 @@
+@import "./base.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply px-[20px] py-[5px] w-full text-white font-medium text-[18px] bg-[#152540] rounded-[99px] leading-[36px] hover:bg-[#0c1627];
+  }
+
+  .btn-secondary {
+    @apply w-[100px] py-[5px] px-[20px] text-[#3C2710] font-medium text-[18px] bg-[#C9AC8C] rounded-[99px] leading-[36px] hover:bg-red-600;
+  }
+
+  .navbar_item {
+    @apply block text-center py-[26px] px-[10px] border-b-transparent hover:border-b-[3px] hover:border-b-white transition-all
+  }
+
+  .main_font_style {
+    @apply text-[25px] text-[#c9ac8c] font-serif;
+  }
+
+  .category_link {
+    @apply p-[10px] hover:text-[#C9AC8C] cursor-pointer;
+  }
+}
